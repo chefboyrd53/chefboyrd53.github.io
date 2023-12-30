@@ -1,3 +1,3 @@
-function test(track){
-    alert(track)
+function test(){
+    alert(document.getElementById('track').value)
 }
