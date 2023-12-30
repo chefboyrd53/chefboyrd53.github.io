@@ -1,3 +1,3 @@
-function test(){
-    alert('ploperton')
+function test(track){
+    alert(track)
 }
