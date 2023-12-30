@@ -6,18 +6,25 @@
     
     <BODY BGCOLOR="262626">
 
-        <h1>Choose a map</h1>
+        <h1>Tracking Time</h1>
+        <form>
+            <label for="placement">Placement (1-12):</label><br>
+            <input type="text" id="placement" name="placement"><br>
+        
 
-        <div> <!-- track images -->
-            <button onclick="test('mks');" id="track_mks">
-                <img src="https://mario.wiki.gallery/images/thumb/0/09/MK8_Mario_Kart_Stadium_Course_Icon.png/228px-MK8_Mario_Kart_Stadium_Course_Icon.png" style="width:200px; height:150px;">
-            </button>
+            <h1>Choose a map</h1>
 
-            <button onclick="test('water park');" id="track_water_park">
-                <img src="https://mario.wiki.gallery/images/thumb/4/40/MK8_Water_Park_Course_Icon.png/228px-MK8_Water_Park_Course_Icon.png" style="width:200px; height:150px;">
-            </button>
-        </div>
+            <div> <!-- track images -->
+                <button type="submit" onclick="test('mario kart stadium');">
+                    <img src="https://mario.wiki.gallery/images/thumb/0/09/MK8_Mario_Kart_Stadium_Course_Icon.png/228px-MK8_Mario_Kart_Stadium_Course_Icon.png" style="width:200px; height:150px;">
+                </button>
 
+                <button onclick="test('water park');">
+                    <img src="https://mario.wiki.gallery/images/thumb/4/40/MK8_Water_Park_Course_Icon.png/228px-MK8_Water_Park_Course_Icon.png" style="width:200px; height:150px;">
+                </button>
+            </div>
+
+        </form>
         <script src="index.js"></script>
     </BODY>
     
