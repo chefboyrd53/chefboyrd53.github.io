@@ -1,3 +1,3 @@
-function test(value){
-    alert(value, document.getElementById('placement'));
+function test(track, placement){
+    alert(track + '\n' + placement.value);
 }
